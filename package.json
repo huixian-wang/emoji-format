@@ -1,0 +1,22 @@
+{
+  "name": "emoji-format",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert-strict": "0.0.2",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "gifencoder": "^2.0.1",
+    "jimp": "^0.16.1",
+    "jpg-stream": "^1.1.2",
+    "png-file-stream": "^1.2.1"
+  }
+}
